@@ -46,12 +46,12 @@ const Dashboard = () => {
               <span className="tab-label">Network Overview</span>
             </Tab>
             <Tab className="tab-item">
-              <FiShield className="tab-icon" />
-              <span className="tab-label">Playfair Cipher</span>
-            </Tab>
-            <Tab className="tab-item">
               <FiWifi className="tab-icon" />
               <span className="tab-label">RIP Routing</span>
+            </Tab>
+            <Tab className="tab-item">
+              <FiShield className="tab-icon" />
+              <span className="tab-label">Playfair Cipher</span>
             </Tab>
             <Tab className="tab-item">
               <FiActivity className="tab-icon" />
@@ -76,13 +76,13 @@ const Dashboard = () => {
 
             <TabPanel>
               <div className="tab-content">
-                <PlayfairTab />
+                <RIPTab />
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="tab-content">
-                <RIPTab />
+                <PlayfairTab />
               </div>
             </TabPanel>
 

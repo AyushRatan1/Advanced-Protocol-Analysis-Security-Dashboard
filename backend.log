@@ -1,0 +1,3711 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8003
+ * Running on http://192.168.0.106:8003
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 614-160-542
+127.0.0.1 - - [01/Jul/2025 00:46:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:46:56] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:46:56] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:46:56] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:46:56] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:46:56] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:46:56] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:47:09] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:47:09] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:47:09] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:47:09] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:47:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:47:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:47:39] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:47:39] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:47:39] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:47:39] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:47:39] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:47:39] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:48:06] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:06] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:06] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:06] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:12] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:12] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:12] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:12] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:14] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:14] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:14] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:14] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:24] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:24] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:24] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:24] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:26] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:26] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:26] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:26] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:34] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:34] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:34] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:34] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:36] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:36] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:36] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:36] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:38] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:38] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:38] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:38] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:41] "POST /api/tcp/simulate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:41] "POST /api/tcp/simulate HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:48] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:48] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+127.0.0.1 - - [01/Jul/2025 00:48:54] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:54] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:48:54] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:48:54] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:05] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:05] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:05] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:05] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:06] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:06] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:49:13] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:13] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:13] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:13] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:49:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:19] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:19] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:49:27] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:27] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:30] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:30] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:49:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:42] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:42] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:49:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:49:58] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:58] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:58] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:58] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:49:58] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:49:58] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:50:00] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:00] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:50:35] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:35] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:50:35] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:35] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:50:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:50:46] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:46] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:50:46] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:46] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:50:47] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:50:47] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:51:56] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:51:56] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:01] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:01] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:08] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:08] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:08] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:08] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:52:13] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:13] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:13] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:13] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:13] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:13] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:52:18] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:18] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:25] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:25] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:26] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:26] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:52:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:52:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:15] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:15] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:15] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:15] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:19] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:20] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:20] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:21] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:21] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:21] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:21] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:32] "[35m[1mPOST /api/rip/shortest-path HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:32] "[35m[1mPOST /api/rip/shortest-path HTTP/1.1[0m" 500 -
+127.0.0.1 - - [01/Jul/2025 00:53:36] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:36] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:53:38] "[35m[1mPOST /api/rip/shortest-path HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:53:38] "[35m[1mPOST /api/rip/shortest-path HTTP/1.1[0m" 500 -
+ * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+INFO:werkzeug: * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO NETWORK SECURITY WORLD
+Encryption Key: NETWORK
+
+Key Matrix:
+N E T W O
+R K A B C
+D F G H I
+L M P Q S
+U V X Y Z
+
+Encrypted Text: FWPUSNETWONCCMOKNDGOWBNCUL
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    5    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    6    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+RIP converged after 3 iterations.
+
+Selected Path from A to F: A -> B -> D -> F
+Total Path Cost: 6
+
+[3] TRANSPORT LAYER (TCP Reno)
+--------------------------------------------------
+Transmitting 26 bytes of encrypted data with 5.0% packet loss rate...
+
+TCP Transmission Results:
+Data transmitted: 26 of 26 bytes
+Transmission complete: True
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 614-160-542
+127.0.0.1 - - [01/Jul/2025 00:56:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:11] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:11] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:17] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:17] "POST /api/network/load-topology HTTP/1.1" 200 -
+ * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+INFO:werkzeug: * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 614-160-542
+ * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 614-160-542
+127.0.0.1 - - [01/Jul/2025 00:56:47] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:47] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:50] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:51] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:52] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:52] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:52] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:52] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:52] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:52] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:54] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:54] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:54] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:54] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:56:58] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:56:58] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:57:04] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:57:04] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:58:06] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:06] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:06] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:06] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:06] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:06] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 00:58:08] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:08] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:09] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:09] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:09] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:09] "GET /api/network/topology HTTP/1.1" 200 -
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    3    
+     C      |    C     |    2    
+     D      |    C     |    3    
+     E      |    B     |    5    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+     E      |    E     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    E     |    3    127.0.0.1 - - [01/Jul/2025 00:58:11] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:11] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:16] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:16] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:17] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:17] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:17] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:17] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:18] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:18] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:18] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:18] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:20] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:20] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:20] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:20] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:38] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:38] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:38] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:38] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:42] "POST /api/tcp/simulate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:42] "POST /api/tcp/simulate HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:53] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:53] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:53] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:53] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:58:53] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:58:53] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:40] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:40] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:40] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:40] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:42] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:42] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:42] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:42] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 00:59:45] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 00:59:45] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:02:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:11] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:11] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:02:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:02:29] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:29] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:02:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:02:29] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:29] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:29] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:29] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:30] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:30] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:02:31] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:31] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:31] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:31] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:34] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:34] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:41] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:44] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:44] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:45] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:45] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:02:45] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:45] "GET /api/network/topology HTTP/1.1" 200 -
+
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    5    
+     B      |    B     |    2    
+     C      |    C     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+
+Iteration 2
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    3    
+     C      |    C     |    2    
+     D      |    C     |    3    
+     E      |    B     |    5    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+     E      |    E     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    E     |    3    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    5    
+     B      |    B     |    2    
+     C      |    C     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    3    
+     C      |    C     |    2    
+     D      |    C     |    3    
+     E      |    B     |    5    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+     E      |    E     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    E     |    3    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    5    
+     B      |    B     |    2    
+     C      |    C     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+
+Iteration 2
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    3    
+     C      |    C     |    2    
+     D      |    C     |    3    
+     E      |    B     |    5    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+     E      |    E     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    E     |    3    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    5    
+     B      |    B     |    2    
+     C      |    C     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    3    
+     C      |    C     |    2    
+     D      |    C     |    3    
+     E      |    B     |    5    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+     E      |    E     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    E     |    3    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    5    
+     B      |    B     |    2    
+     C      |    C     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+
+Iteration 2
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    3    
+     C      |    C     |    2    127.0.0.1 - - [01/Jul/2025 01:02:47] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:02:47] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:05] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:05] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:05] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:05] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:09] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:09] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:09] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:09] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:10] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:12] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:12] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:12] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:12] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:14] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:16] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:16] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:17] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:17] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:17] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:17] "GET /api/network/topology HTTP/1.1" 200 -
+ * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+INFO:werkzeug: * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/app.py', reloading
+
+     D      |    C     |    3    
+     E      |    B     |    5    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+     E      |    E     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    E     |    3    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    5    
+     B      |    B     |    2    
+     C      |    C     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+
+RIP converged after 2 iterations.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 614-160-542
+127.0.0.1 - - [01/Jul/2025 01:03:20] "POST /api/tcp/simulate HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:24] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:24] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:26] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:28] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:28] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:28] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:28] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:30] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:30] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:30] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:30] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:35] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:35] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:35] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:35] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:37] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:37] "POST /api/network/load-topology HTTP/1.1" 200 -
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Root:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    1    
+    L1B     |   L1B    |    1    
+    L2A     |   L1A    |    3    
+    L2B     |   L1A    |    2    
+    L2C     |   L1B    |    2    
+    L2D     |   L1B    |    4    
+   Root     |   Root   |    0    127.0.0.1 - - [01/Jul/2025 01:03:37] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:37] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:42] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:42] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:42] "GET /api/network/topology HTTP/1.1" 200 -
+
+
+Routing Table for Node L1A:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    0    
+    L1B     |   Root   |    2    
+    L2A     |   L2A    |    2    
+    L2B     |   L2B    |    1    
+    L2C     |    -     |    ∞    
+    L2D     |    -     |    ∞    
+   Root     |   Root   |    1    
+
+Routing Table for Node L1B:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   Root   |    2    
+    L1B     |   L1B    |    0    
+    L2A     |    -     |    ∞    
+    L2B     |    -     |    ∞    
+    L2C     |   L2C    |    1    
+    L2D     |   L2D    |    3    
+   Root     |   Root   |    1    
+
+Routing Table for Node L2A:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    2    
+    L1B     |    -     |    ∞    
+    L2A     |   L2A    |    0    
+    L2B     |   L1A    |    3    
+    L2C     |    -     |    ∞    
+    L2D     |    -     |    ∞    
+   Root     |   L1A    |    3    
+
+Routing Table for Node L2B:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    1    
+    L1B     |    -     |    ∞    
+    L2A     |   L1A    |    3    
+    L2B     |   L2B    |    0    
+    L2C     |    -     |    ∞    
+    L2D     |    -     |    ∞    
+   Root     |   L1A    |    2    
+
+Routing Table for Node L2C:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |    -     |    ∞    
+    L1B     |   L1B    |    1    
+    L2A     |    -     |    ∞    
+    L2B     |    -     |    ∞    
+    L2C     |   L2C    |    0    
+    L2D     |   L1B    |    4    
+   Root     |   L1B    |    2    
+
+Routing Table for Node L2D:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |    -     |    ∞    
+    L1B     |   L1B    |    3    
+    L2A     |    -     |    ∞    
+    L2B     |    -     |    ∞    
+    L2C     |   L1B    |    4    
+    L2D     |   L2D    |    0    
+   Root     |   L1B    |    4    
+
+Iteration 2
+
+Iteration 3
+
+Iteration 4
+
+Routing Table for Node Root:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    1    
+    L1B     |   L1B    |    1    
+    L2A     |   L1A    |    3    
+    L2B     |   L1A    |    2    
+    L2C     |   L1B    |    2    
+    L2D     |   L1B    |    4    
+   Root     |   Root   |    0    
+
+Routing Table for Node L1A:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    0    
+    L1B     |   Root   |    2    
+    L2A     |   L2A    |    2    
+    L2B     |   L2B    |    1    
+    L2C     |   Root   |    3    
+    L2D     |   Root   |    5    
+   Root     |   Root   |    1    
+
+Routing Table for Node L1B:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   Root   |    2    
+    L1B     |   L1B    |    0    
+    L2A     |   Root   |    4    
+    L2B     |   Root   |    3    
+    L2C     |   L2C    |    1    
+    L2D     |   L2D    |    3    
+   Root     |   Root   |    1    
+
+Routing Table for Node L2A:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    2    
+    L1B     |   L1A    |    4    
+    L2A     |   L2A    |    0    
+    L2B     |   L1A    |    3    
+    L2C     |   L1A    |    5    
+    L2D     |   L1A    |    7    
+   Root     |   L1A    |    3    
+
+Routing Table for Node L2B:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1A    |    1    
+    L1B     |   L1A    |    3    
+    L2A     |   L1A    |    3    
+    L2B     |   L2B    |    0    
+    L2C     |   L1A    |    4    
+    L2D     |   L1A    |    6    
+   Root     |   L1A    |    2    
+
+Routing Table for Node L2C:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1B    |    3    
+    L1B     |   L1B    |    1    
+    L2A     |   L1B    |    5    
+    L2B     |   L1B    |    4    
+    L2C     |   L2C    |    0    
+    L2D     |   L1B    |    4    
+   Root     |   L1B    |    2    
+
+Routing Table for Node L2D:
+Destination | Next Hop | Distance
+------------|----------|----------
+    L1A     |   L1B    |    5    
+    L1B     |   L1B    |    3    
+    L2A     |   L1B    |    7    
+    L2B     |   L1B    |    6    
+    L2C     |   L1B    |    4    
+    L2D     |   L2D    |    0    
+   Root     |   L1B    |    4    
+
+RIP converged after 4 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+127.0.0.1 - - [01/Jul/2025 01:03:43] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:43] "POST /api/rip/shortest-path HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:48] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:48] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:48] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:48] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:03:49] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:03:49] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:04:17] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:04:17] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:04:17] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:04:17] "GET /api/network/topology HTTP/1.1" 200 -
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    127.0.0.1 - - [01/Jul/2025 01:04:21] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:04:21] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:04:21] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:04:21] "GET /api/network/topology HTTP/1.1" 200 -
+
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+Iteration 2
+
+Routing Table for Node Hub:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    2    
+     E      |    E     |    1    
+    Hub     |   Hub    |    0    
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |    B     |    0    
+     C      |   Hub    |    3    
+     D      |   Hub    |    4    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |    C     |    0    
+     D      |   Hub    |    3    
+     E      |   Hub    |    2    
+    Hub     |   Hub    |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    3    
+     B      |   Hub    |    4    
+     C      |   Hub    |    3    
+     D      |    D     |    0    
+     E      |   Hub    |    3    
+    Hub     |   Hub    |    2    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |   Hub    |    2    
+     B      |   Hub    |    3    
+     C      |   Hub    |    2    
+     D      |   Hub    |    3    
+     E      |    E     |    0    
+    Hub     |   Hub    |    1    
+
+RIP converged after 2 iterations.
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO NETWORK SECURITY WORLD
+Encryption Key: NETWORK
+
+Key Matrix:
+N E T W O
+R K A B C
+D F G H I
+L M P Q S
+U V X Y Z
+
+Encrypted Text: FWPUSNETWONCCMOKNDGOWBNCUL
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    127.0.0.1 - - [01/Jul/2025 01:04:24] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:04:24] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+127.0.0.1 - - [01/Jul/2025 01:05:49] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:05:49] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    5    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    6    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+RIP converged after 3 iterations.
+
+Selected Path from A to F: A -> B -> D -> F
+Total Path Cost: 6
+
+[3] TRANSPORT LAYER (TCP Reno)
+--------------------------------------------------
+Transmitting 26 bytes of encrypted data with 5.0% packet loss rate...
+
+TCP Transmission Results:
+Data transmitted: 26 of 26 bytes
+Transmission complete: True
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO
+Encryption Key: KEY
+
+Key Matrix:
+K E Y A B
+C D F G H
+I L M N O
+P Q R S T
+U V W X Z
+
+Encrypted Text: DBNVMI
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    5    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    6    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+RIP converged after 3 iterations.
+
+Selected Path from A to F: A -> B -> D -> F
+Total Path Cost: 6
+
+[3] TRANSPORT LAYER (TCP Reno)
+--------------------------------------------------
+Transmitting 6 bytes of encrypted data with 10.0% packet loss rate...
+
+TCP Transmission Results:
+Data transmitted: 6 of 6 bytes
+Transmission complete: True
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO NETWORK SECURITY WORLD
+Encryption Key: NETWORK
+
+Key Matrix:
+N E T W O
+R K A B C
+D F G H I
+L M P Q S
+U V X Y Z
+
+Encrypted Text: FWPUSNETWONCCMOKNDGOWBNCUL
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    127.0.0.1 - - [01/Jul/2025 01:06:05] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:05] "[35m[1mPOST /api/simulation/full HTTP/1.1[0m" 500 -
+ * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/tcp_reno_simulator.py', reloading
+INFO:werkzeug: * Detected change in '/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/tcp_reno_simulator.py', reloading
+
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    5    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    6    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+RIP converged after 3 iterations.
+
+Selected Path from A to F: A -> B -> D -> F
+Total Path Cost: 6
+
+[3] TRANSPORT LAYER (TCP Reno)
+--------------------------------------------------
+Transmitting 26 bytes of encrypted data with 5.0% packet loss rate...
+
+TCP Transmission Results:
+Data transmitted: 26 of 26 bytes
+Transmission complete: True
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 614-160-542
+127.0.0.1 - - [01/Jul/2025 01:06:34] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:34] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:35] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:38] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:41] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:41] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:43] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:43] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:43] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:43] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:45] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:45] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:45] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:45] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:46] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:46] "GET /api/network/topology HTTP/1.1" 200 -
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+RIP converged after 1 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    127.0.0.1 - - [01/Jul/2025 01:06:46] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:46] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:06:49] "POST /api/simulation/full HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:06:49] "POST /api/simulation/full HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:07:08] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:07:08] "GET /api/network/topology HTTP/1.1" 200 -
+
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO NETWORK SECURITY WORLD
+Encryption Key: NETWORK
+
+Key Matrix:
+N E T W O
+R K A B C
+D F G H I
+L M P Q S
+U V X Y Z
+
+Encrypted Text: FWPUSNETWONCCMOKNDGOWBNCUL
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    5    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    6    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+RIP converged after 3 iterations.
+
+Selected Path from A to F: A -> B -> D -> F
+Total Path Cost: 6
+
+[3] TRANSPORT LAYER (TCP Reno)
+--------------------------------------------------
+Transmitting 26 bytes of encrypted data with 5.0% packet loss rate...
+
+TCP Transmission Results:
+Data transmitted: 26 of 26 bytes
+Transmission complete: True
+Time steps required: 12
+Packets sent: 28
+Packets lost: 1 (3.57%)
+
+[4] DECRYPTION AT DESTINATION
+--------------------------------------------------
+Decrypted Text: HELXLONETWORKSECURITYWORLD
+
+TCP Reno congestion window graph saved as 'tcp_reno_simulation.png'
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    B     |    2    
+     D      |    B     |    3    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    C     |    1    127.0.0.1 - - [01/Jul/2025 01:07:08] "GET /api/network/topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:07:08] "GET /api/network/topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:08:38] "POST /api/simulation/full HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:08:38] "POST /api/simulation/full HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:08:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:08:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2025 01:08:55] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:08:55] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:08:55] "POST /api/network/load-topology HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:08:55] "POST /api/network/load-topology HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2025 01:08:55] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:08:55] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+
+     D      |    C     |    2    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    2    
+     B      |    B     |    1    
+     C      |    C     |    0    
+     D      |    D     |    1    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    3    
+     B      |    C     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+
+RIP converged after 3 iterations.
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO NETWORK SECURITY WORLD
+Encryption Key: NETWORK
+
+Key Matrix:
+N E T W O
+R K A B C
+D F G H I
+L M P Q S
+U V X Y Z
+
+Encrypted Text: FWPUSNETWONCCMOKNDGOWBNCUL
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    5    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    D     |    6    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+RIP converged after 3 iterations.
+
+Selected Path from A to F: A -> B -> D -> F
+Total Path Cost: 6
+
+[3] TRANSPORT LAYER (TCP Reno)
+--------------------------------------------------
+Transmitting 26 bytes of encrypted data with 5.0% packet loss rate...
+
+TCP Transmission Results:
+Data transmitted: 26 of 26 bytes
+Transmission complete: True
+Time steps required: 7
+Packets sent: 26
+Packets lost: 0 (0.00%)
+
+[4] DECRYPTION AT DESTINATION
+--------------------------------------------------
+Decrypted Text: HELXLONETWORKSECURITYWORLD
+
+TCP Reno congestion window graph saved as 'tcp_reno_simulation.png'
+
+==================================================
+SECURE ROUTING SIMULATION
+==================================================
+
+[1] ENCRYPTION LAYER (Playfair Cipher)
+--------------------------------------------------
+Plaintext: HELLO NETWORK SECURITY WORLD
+Encryption Key: NETWORK
+
+Key Matrix:
+N E T W O
+R K A B C
+D F G H I
+L M P Q S
+U V X Y Z
+
+Encrypted Text: FWPUSNETWONCCMOKNDGOWBNCUL
+
+[2] ROUTING LAYER (RIP)
+--------------------------------------------------
+Initializing network...
+Starting RIP simulation...
+
+Iteration 1
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    C     |    8    
+     F      |    -     |    ∞    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    
+     F      |    D     |    5    
+
+Routing Table for Node C:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    3    
+     B      |    D     |    3    
+     C      |    C     |    0    
+     D      |    D     |    1    
+     E      |    D     |    3    
+     F      |    D     |    4    
+
+Routing Table for Node D:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    B     |    3    
+     B      |    B     |    2    
+     C      |    C     |    1    
+     D      |    D     |    0    
+     E      |    E     |    2    
+     F      |    F     |    3    
+
+Routing Table for Node E:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    C     |    8    
+     B      |    D     |    4    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    E     |    0    
+     F      |    F     |    1    
+
+Routing Table for Node F:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    -     |    ∞    
+     B      |    D     |    5    
+     C      |    D     |    4    
+     D      |    D     |    3    
+     E      |    E     |    1    
+     F      |    F     |    0    
+
+Iteration 2
+
+Iteration 3
+
+Routing Table for Node A:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    0    
+     B      |    B     |    1    
+     C      |    C     |    3    
+     D      |    B     |    3    
+     E      |    B     |    5    
+     F      |    B     |    6    
+
+Routing Table for Node B:
+Destination | Next Hop | Distance
+------------|----------|----------
+     A      |    A     |    1    
+     B      |    B     |    0    
+     C      |    D     |    3    
+     D      |    D     |    2    
+     E      |    D     |    4    127.0.0.1 - - [01/Jul/2025 01:09:02] "POST /api/simulation/full HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jul/2025 01:09:02] "POST /api/simulation/full HTTP/1.1" 200 -

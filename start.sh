@@ -166,10 +166,10 @@ cd ..
 # Check and clean up ports
 print_status "Checking and cleaning up ports..."
 
-# Check backend port (5001)
-if ! port_available 5001; then
-    print_warning "Port 5001 is in use"
-    kill_port 5001
+# Check backend port (8003)
+if ! port_available 8003; then
+    print_warning "Port 8003 is in use"
+    kill_port 8003
 fi
 
 # Check frontend port (3000)
@@ -190,7 +190,7 @@ print_success "Ports are ready"
 print_status "Starting servers..."
 
 # Start backend in background
-print_info "Starting Flask backend server on port 5001..."
+print_info "Starting Flask backend server on port 8003..."
 export FLASK_ENV=development
 nohup python3 app.py > backend.log 2>&1 &
 BACKEND_PID=$!
@@ -199,7 +199,7 @@ BACKEND_PID=$!
 sleep 3
 
 # Check if backend started successfully
-if ! port_available 5001; then
+if ! port_available 8003; then
     print_success "Backend server started (PID: $BACKEND_PID)"
 else
     print_error "Failed to start backend server"
@@ -239,7 +239,7 @@ echo ""
 print_success "🎉 DCN Network Simulation Dashboard is now running!"
 echo ""
 print_info "🔗 Frontend Dashboard: ${CYAN}http://localhost:3002${NC}"
-print_info "🔗 Backend API: ${CYAN}http://localhost:5001${NC}"
+print_info "🔗 Backend API: ${CYAN}http://localhost:8003${NC}"
 echo ""
 print_info "📄 Logs:"
 print_info "   Backend: backend.log"

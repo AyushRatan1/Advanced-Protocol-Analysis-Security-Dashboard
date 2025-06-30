@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { FiPlay, FiRefreshCw, FiShield, FiTarget, FiActivity, FiDownload } from 'react-icons/fi';
+import { FiPlay, FiRefreshCw, FiShield, FiTarget, FiActivity, FiDownload, FiGrid } from 'react-icons/fi';
 import axios from 'axios';
+import predefinedTopologies from '../../topologies';
 import './SimulationTab.css';
 
 const SimulationTab = () => {
@@ -13,6 +14,8 @@ const SimulationTab = () => {
     packet_loss_rate: 0.05
   });
   
+  const [selectedTopology, setSelectedTopology] = useState('linear');
+  const [networkData, setNetworkData] = useState(predefinedTopologies['linear']);
   const [results, setResults] = useState(null);
   const [plotImage, setPlotImage] = useState('');
   const [loading, setLoading] = useState(false);
@@ -92,13 +95,73 @@ const SimulationTab = () => {
     URL.revokeObjectURL(url);
   };
 
-  const availableNodes = ['A', 'B', 'C', 'D', 'E', 'F'];
+  const availableNodes = useMemo(() => networkData.nodes.map(n => n.id), [networkData]);
   const simulationSteps = [
     'Encrypting message...',
     'Finding optimal route...',
     'Simulating TCP transmission...',
     'Decrypting at destination...'
   ];
+
+  const handleTopologyChange = async (e) => {
+    const key = e.target.value;
+    setSelectedTopology(key);
+    const topo = predefinedTopologies[key];
+    if (!topo) return;
+    setNetworkData(topo);
+
+    // Update routing dropdown defaults if nodes differ
+    setConfig(prev => ({
+      ...prev,
+      source_node: topo.nodes[0].id,
+      destination_node: topo.nodes[topo.nodes.length - 1].id
+    }));
+
+    try {
+      await axios.post('/api/network/load-topology', {
+        topology: key,
+        data: {
+          nodes: topo.nodes,
+          links: topo.links
+        }
+      });
+    } catch (err) {
+      console.error('Error loading topology:', err);
+    }
+  };
+
+  const renderNetwork = () => {
+    if (!networkData?.nodes?.length) return null;
+    const svgWidth = 600;
+    const svgHeight = 300;
+    return (
+      <svg width={svgWidth} height={svgHeight} className="network-svg">
+        {networkData.links.map((link, idx) => {
+          const s = networkData.nodes.find(n => n.id === link.source);
+          const t = networkData.nodes.find(n => n.id === link.target);
+          if (!s || !t) return null;
+          return (
+            <g key={idx}>
+              <line x1={s.x} y1={s.y} x2={t.x} y2={t.y} stroke="#00d4ff" strokeWidth="2" />
+              <text x={(s.x+t.x)/2} y={(s.y+t.y)/2 - 6} fill="#ffe66d" fontSize="11" textAnchor="middle">{link.cost ?? link.distance ?? 1}</text>
+            </g>
+          );
+        })}
+        {networkData.nodes.map((node, idx) => (
+          <g key={idx}>
+            <circle cx={node.x} cy={node.y} r="18" fill="url(#gradSim)" stroke="#00d4ff" strokeWidth="2" />
+            <text x={node.x} y={node.y+5} fill="#fff" fontSize="13" fontWeight="700" textAnchor="middle">{node.id}</text>
+          </g>
+        ))}
+        <defs>
+          <radialGradient id="gradSim" cx="30%" cy="30%">
+            <stop offset="0%" stopColor="rgba(0,212,255,0.3)" />
+            <stop offset="100%" stopColor="rgba(0,150,180,0.8)" />
+          </radialGradient>
+        </defs>
+      </svg>
+    );
+  };
 
   return (
     <div className="simulation-tab">
@@ -108,6 +171,9 @@ const SimulationTab = () => {
           <p>End-to-end secure network transmission with Playfair encryption, RIP routing, and TCP Reno</p>
         </div>
         <div className="header-actions">
+          <select value={selectedTopology} onChange={handleTopologyChange} className="cyber-select" style={{ marginRight: 16 }}>
+            {Object.entries(predefinedTopologies).map(([k,t]) => (<option key={k} value={k}>{t.name}</option>))}
+          </select>
           {results && (
             <motion.button
               className="action-btn secondary"
@@ -132,6 +198,12 @@ const SimulationTab = () => {
       )}
 
       <div className="simulation-content">
+        {/* Network preview */}
+        <div className="network-preview" style={{ background:'rgba(0,0,0,0.25)', borderRadius:12, padding:20, textAlign:'center' }}>
+          <h3 style={{color:'var(--text-primary)', marginBottom:12}}><FiGrid/> {predefinedTopologies[selectedTopology].name} Preview</h3>
+          {renderNetwork()}
+        </div>
+
         <div className="simulation-config">
           <h3>Simulation Configuration</h3>
           

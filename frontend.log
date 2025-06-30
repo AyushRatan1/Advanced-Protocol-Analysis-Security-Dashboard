@@ -1,0 +1,812 @@
+
+> dcn-dashboard@1.0.0 start
+> react-scripts start
+
+(node:59253) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:59253) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+Attempted import error: 'FiBarChart3' is not exported from 'react-icons/fi' (imported as 'FiBarChart3').
+ERROR in ./src/components/tabs/TCPTab.js 285:45-56
+export 'FiBarChart3' (imported as 'FiBarChart3') was not found in 'react-icons/fi' (possible exports: FiActivity, FiAirplay, FiAlertCircle, FiAlertOctagon, FiAlertTriangle, FiAlignCenter, FiAlignJustify, FiAlignLeft, FiAlignRight, FiAnchor, FiAperture, FiArchive, FiArrowDown, FiArrowDownCircle, FiArrowDownLeft, FiArrowDownRight, FiArrowLeft, FiArrowLeftCircle, FiArrowRight, FiArrowRightCircle, FiArrowUp, FiArrowUpCircle, FiArrowUpLeft, FiArrowUpRight, FiAtSign, FiAward, FiBarChart, FiBarChart2, FiBattery, FiBatteryCharging, FiBell, FiBellOff, FiBluetooth, FiBold, FiBook, FiBookOpen, FiBookmark, FiBox, FiBriefcase, FiCalendar, FiCamera, FiCameraOff, FiCast, FiCheck, FiCheckCircle, FiCheckSquare, FiChevronDown, FiChevronLeft, FiChevronRight, FiChevronUp, FiChevronsDown, FiChevronsLeft, FiChevronsRight, FiChevronsUp, FiChrome, FiCircle, FiClipboard, FiClock, FiCloud, FiCloudDrizzle, FiCloudLightning, FiCloudOff, FiCloudRain, FiCloudSnow, FiCode, FiCodepen, FiCodesandbox, FiCoffee, FiColumns, FiCommand, FiCompass, FiCopy, FiCornerDownLeft, FiCornerDownRight, FiCornerLeftDown, FiCornerLeftUp, FiCornerRightDown, FiCornerRightUp, FiCornerUpLeft, FiCornerUpRight, FiCpu, FiCreditCard, FiCrop, FiCrosshair, FiDatabase, FiDelete, FiDisc, FiDivide, FiDivideCircle, FiDivideSquare, FiDollarSign, FiDownload, FiDownloadCloud, FiDribbble, FiDroplet, FiEdit, FiEdit2, FiEdit3, FiExternalLink, FiEye, FiEyeOff, FiFacebook, FiFastForward, FiFeather, FiFigma, FiFile, FiFileMinus, FiFilePlus, FiFileText, FiFilm, FiFilter, FiFlag, FiFolder, FiFolderMinus, FiFolderPlus, FiFramer, FiFrown, FiGift, FiGitBranch, FiGitCommit, FiGitMerge, FiGitPullRequest, FiGithub, FiGitlab, FiGlobe, FiGrid, FiHardDrive, FiHash, FiHeadphones, FiHeart, FiHelpCircle, FiHexagon, FiHome, FiImage, FiInbox, FiInfo, FiInstagram, FiItalic, FiKey, FiLayers, FiLayout, FiLifeBuoy, FiLink, FiLink2, FiLinkedin, FiList, FiLoader, FiLock, FiLogIn, FiLogOut, FiMail, FiMap, FiMapPin, FiMaximize, FiMaximize2, FiMeh, FiMenu, FiMessageCircle, FiMessageSquare, FiMic, FiMicOff, FiMinimize, FiMinimize2, FiMinus, FiMinusCircle, FiMinusSquare, FiMonitor, FiMoon, FiMoreHorizontal, FiMoreVertical, FiMousePointer, FiMove, FiMusic, FiNavigation, FiNavigation2, FiOctagon, FiPackage, FiPaperclip, FiPause, FiPauseCircle, FiPenTool, FiPercent, FiPhone, FiPhoneCall, FiPhoneForwarded, FiPhoneIncoming, FiPhoneMissed, FiPhoneOff, FiPhoneOutgoing, FiPieChart, FiPlay, FiPlayCircle, FiPlus, FiPlusCircle, FiPlusSquare, FiPocket, FiPower, FiPrinter, FiRadio, FiRefreshCcw, FiRefreshCw, FiRepeat, FiRewind, FiRotateCcw, FiRotateCw, FiRss, FiSave, FiScissors, FiSearch, FiSend, FiServer, FiSettings, FiShare, FiShare2, FiShield, FiShieldOff, FiShoppingBag, FiShoppingCart, FiShuffle, FiSidebar, FiSkipBack, FiSkipForward, FiSlack, FiSlash, FiSliders, FiSmartphone, FiSmile, FiSpeaker, FiSquare, FiStar, FiStopCircle, FiSun, FiSunrise, FiSunset, FiTable, FiTablet, FiTag, FiTarget, FiTerminal, FiThermometer, FiThumbsDown, FiThumbsUp, FiToggleLeft, FiToggleRight, FiTool, FiTrash, FiTrash2, FiTrello, FiTrendingDown, FiTrendingUp, FiTriangle, FiTruck, FiTv, FiTwitch, FiTwitter, FiType, FiUmbrella, FiUnderline, FiUnlock, FiUpload, FiUploadCloud, FiUser, FiUserCheck, FiUserMinus, FiUserPlus, FiUserX, FiUsers, FiVideo, FiVideoOff, FiVoicemail, FiVolume, FiVolume1, FiVolume2, FiVolumeX, FiWatch, FiWifi, FiWifiOff, FiWind, FiX, FiXCircle, FiXOctagon, FiXSquare, FiYoutube, FiZap, FiZapOff, FiZoomIn, FiZoomOut)
+
+ERROR in ./src/components/tabs/TCPTab.js 845:42-53
+export 'FiBarChart3' (imported as 'FiBarChart3') was not found in 'react-icons/fi' (possible exports: FiActivity, FiAirplay, FiAlertCircle, FiAlertOctagon, FiAlertTriangle, FiAlignCenter, FiAlignJustify, FiAlignLeft, FiAlignRight, FiAnchor, FiAperture, FiArchive, FiArrowDown, FiArrowDownCircle, FiArrowDownLeft, FiArrowDownRight, FiArrowLeft, FiArrowLeftCircle, FiArrowRight, FiArrowRightCircle, FiArrowUp, FiArrowUpCircle, FiArrowUpLeft, FiArrowUpRight, FiAtSign, FiAward, FiBarChart, FiBarChart2, FiBattery, FiBatteryCharging, FiBell, FiBellOff, FiBluetooth, FiBold, FiBook, FiBookOpen, FiBookmark, FiBox, FiBriefcase, FiCalendar, FiCamera, FiCameraOff, FiCast, FiCheck, FiCheckCircle, FiCheckSquare, FiChevronDown, FiChevronLeft, FiChevronRight, FiChevronUp, FiChevronsDown, FiChevronsLeft, FiChevronsRight, FiChevronsUp, FiChrome, FiCircle, FiClipboard, FiClock, FiCloud, FiCloudDrizzle, FiCloudLightning, FiCloudOff, FiCloudRain, FiCloudSnow, FiCode, FiCodepen, FiCodesandbox, FiCoffee, FiColumns, FiCommand, FiCompass, FiCopy, FiCornerDownLeft, FiCornerDownRight, FiCornerLeftDown, FiCornerLeftUp, FiCornerRightDown, FiCornerRightUp, FiCornerUpLeft, FiCornerUpRight, FiCpu, FiCreditCard, FiCrop, FiCrosshair, FiDatabase, FiDelete, FiDisc, FiDivide, FiDivideCircle, FiDivideSquare, FiDollarSign, FiDownload, FiDownloadCloud, FiDribbble, FiDroplet, FiEdit, FiEdit2, FiEdit3, FiExternalLink, FiEye, FiEyeOff, FiFacebook, FiFastForward, FiFeather, FiFigma, FiFile, FiFileMinus, FiFilePlus, FiFileText, FiFilm, FiFilter, FiFlag, FiFolder, FiFolderMinus, FiFolderPlus, FiFramer, FiFrown, FiGift, FiGitBranch, FiGitCommit, FiGitMerge, FiGitPullRequest, FiGithub, FiGitlab, FiGlobe, FiGrid, FiHardDrive, FiHash, FiHeadphones, FiHeart, FiHelpCircle, FiHexagon, FiHome, FiImage, FiInbox, FiInfo, FiInstagram, FiItalic, FiKey, FiLayers, FiLayout, FiLifeBuoy, FiLink, FiLink2, FiLinkedin, FiList, FiLoader, FiLock, FiLogIn, FiLogOut, FiMail, FiMap, FiMapPin, FiMaximize, FiMaximize2, FiMeh, FiMenu, FiMessageCircle, FiMessageSquare, FiMic, FiMicOff, FiMinimize, FiMinimize2, FiMinus, FiMinusCircle, FiMinusSquare, FiMonitor, FiMoon, FiMoreHorizontal, FiMoreVertical, FiMousePointer, FiMove, FiMusic, FiNavigation, FiNavigation2, FiOctagon, FiPackage, FiPaperclip, FiPause, FiPauseCircle, FiPenTool, FiPercent, FiPhone, FiPhoneCall, FiPhoneForwarded, FiPhoneIncoming, FiPhoneMissed, FiPhoneOff, FiPhoneOutgoing, FiPieChart, FiPlay, FiPlayCircle, FiPlus, FiPlusCircle, FiPlusSquare, FiPocket, FiPower, FiPrinter, FiRadio, FiRefreshCcw, FiRefreshCw, FiRepeat, FiRewind, FiRotateCcw, FiRotateCw, FiRss, FiSave, FiScissors, FiSearch, FiSend, FiServer, FiSettings, FiShare, FiShare2, FiShield, FiShieldOff, FiShoppingBag, FiShoppingCart, FiShuffle, FiSidebar, FiSkipBack, FiSkipForward, FiSlack, FiSlash, FiSliders, FiSmartphone, FiSmile, FiSpeaker, FiSquare, FiStar, FiStopCircle, FiSun, FiSunrise, FiSunset, FiTable, FiTablet, FiTag, FiTarget, FiTerminal, FiThermometer, FiThumbsDown, FiThumbsUp, FiToggleLeft, FiToggleRight, FiTool, FiTrash, FiTrash2, FiTrello, FiTrendingDown, FiTrendingUp, FiTriangle, FiTruck, FiTv, FiTwitch, FiTwitter, FiType, FiUmbrella, FiUnderline, FiUnlock, FiUpload, FiUploadCloud, FiUser, FiUserCheck, FiUserMinus, FiUserPlus, FiUserX, FiUsers, FiVideo, FiVideoOff, FiVoicemail, FiVolume, FiVolume1, FiVolume2, FiVolumeX, FiWatch, FiWifi, FiWifiOff, FiWind, FiX, FiXCircle, FiXOctagon, FiXSquare, FiYoutube, FiZap, FiZapOff, FiZoomIn, FiZoomOut)
+
+ERROR in ./src/components/tabs/TCPTab.js 992:45-56
+export 'FiBarChart3' (imported as 'FiBarChart3') was not found in 'react-icons/fi' (possible exports: FiActivity, FiAirplay, FiAlertCircle, FiAlertOctagon, FiAlertTriangle, FiAlignCenter, FiAlignJustify, FiAlignLeft, FiAlignRight, FiAnchor, FiAperture, FiArchive, FiArrowDown, FiArrowDownCircle, FiArrowDownLeft, FiArrowDownRight, FiArrowLeft, FiArrowLeftCircle, FiArrowRight, FiArrowRightCircle, FiArrowUp, FiArrowUpCircle, FiArrowUpLeft, FiArrowUpRight, FiAtSign, FiAward, FiBarChart, FiBarChart2, FiBattery, FiBatteryCharging, FiBell, FiBellOff, FiBluetooth, FiBold, FiBook, FiBookOpen, FiBookmark, FiBox, FiBriefcase, FiCalendar, FiCamera, FiCameraOff, FiCast, FiCheck, FiCheckCircle, FiCheckSquare, FiChevronDown, FiChevronLeft, FiChevronRight, FiChevronUp, FiChevronsDown, FiChevronsLeft, FiChevronsRight, FiChevronsUp, FiChrome, FiCircle, FiClipboard, FiClock, FiCloud, FiCloudDrizzle, FiCloudLightning, FiCloudOff, FiCloudRain, FiCloudSnow, FiCode, FiCodepen, FiCodesandbox, FiCoffee, FiColumns, FiCommand, FiCompass, FiCopy, FiCornerDownLeft, FiCornerDownRight, FiCornerLeftDown, FiCornerLeftUp, FiCornerRightDown, FiCornerRightUp, FiCornerUpLeft, FiCornerUpRight, FiCpu, FiCreditCard, FiCrop, FiCrosshair, FiDatabase, FiDelete, FiDisc, FiDivide, FiDivideCircle, FiDivideSquare, FiDollarSign, FiDownload, FiDownloadCloud, FiDribbble, FiDroplet, FiEdit, FiEdit2, FiEdit3, FiExternalLink, FiEye, FiEyeOff, FiFacebook, FiFastForward, FiFeather, FiFigma, FiFile, FiFileMinus, FiFilePlus, FiFileText, FiFilm, FiFilter, FiFlag, FiFolder, FiFolderMinus, FiFolderPlus, FiFramer, FiFrown, FiGift, FiGitBranch, FiGitCommit, FiGitMerge, FiGitPullRequest, FiGithub, FiGitlab, FiGlobe, FiGrid, FiHardDrive, FiHash, FiHeadphones, FiHeart, FiHelpCircle, FiHexagon, FiHome, FiImage, FiInbox, FiInfo, FiInstagram, FiItalic, FiKey, FiLayers, FiLayout, FiLifeBuoy, FiLink, FiLink2, FiLinkedin, FiList, FiLoader, FiLock, FiLogIn, FiLogOut, FiMail, FiMap, FiMapPin, FiMaximize, FiMaximize2, FiMeh, FiMenu, FiMessageCircle, FiMessageSquare, FiMic, FiMicOff, FiMinimize, FiMinimize2, FiMinus, FiMinusCircle, FiMinusSquare, FiMonitor, FiMoon, FiMoreHorizontal, FiMoreVertical, FiMousePointer, FiMove, FiMusic, FiNavigation, FiNavigation2, FiOctagon, FiPackage, FiPaperclip, FiPause, FiPauseCircle, FiPenTool, FiPercent, FiPhone, FiPhoneCall, FiPhoneForwarded, FiPhoneIncoming, FiPhoneMissed, FiPhoneOff, FiPhoneOutgoing, FiPieChart, FiPlay, FiPlayCircle, FiPlus, FiPlusCircle, FiPlusSquare, FiPocket, FiPower, FiPrinter, FiRadio, FiRefreshCcw, FiRefreshCw, FiRepeat, FiRewind, FiRotateCcw, FiRotateCw, FiRss, FiSave, FiScissors, FiSearch, FiSend, FiServer, FiSettings, FiShare, FiShare2, FiShield, FiShieldOff, FiShoppingBag, FiShoppingCart, FiShuffle, FiSidebar, FiSkipBack, FiSkipForward, FiSlack, FiSlash, FiSliders, FiSmartphone, FiSmile, FiSpeaker, FiSquare, FiStar, FiStopCircle, FiSun, FiSunrise, FiSunset, FiTable, FiTablet, FiTag, FiTarget, FiTerminal, FiThermometer, FiThumbsDown, FiThumbsUp, FiToggleLeft, FiToggleRight, FiTool, FiTrash, FiTrash2, FiTrello, FiTrendingDown, FiTrendingUp, FiTriangle, FiTruck, FiTv, FiTwitch, FiTwitter, FiType, FiUmbrella, FiUnderline, FiUnlock, FiUpload, FiUploadCloud, FiUser, FiUserCheck, FiUserMinus, FiUserPlus, FiUserX, FiUsers, FiVideo, FiVideoOff, FiVoicemail, FiVolume, FiVolume1, FiVolume2, FiVolumeX, FiWatch, FiWifi, FiWifiOff, FiWind, FiX, FiXCircle, FiXOctagon, FiXSquare, FiYoutube, FiZap, FiZapOff, FiZoomIn, FiZoomOut)
+
+webpack compiled with 3 errors
+(node:59253) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/TCPTab.js
+  Line 190:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 3:43:  'FiBarChart2' is defined but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 190:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/TCPTab.js
+  Line 190:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 3:43:  'FiBarChart2' is defined but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 190:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/TCPTab.js
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/TCPTab.js
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 389:20:  'FiBarChart3' is not defined  react/jsx-no-undef
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/TCPTab.js
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/TCPTab.js
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/tabs/TCPTab.js
+  Line 436:22:  'FiBarChart3' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 28:6:  React Hook useEffect has missing dependencies: 'destNode' and 'sourceNode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 82:9:  'getNodeInfo' is assigned a value but never used                                                                                no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 82:9:  'getNodeInfo' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (208:8) (208:8)
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/tabs/RIPTab.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/src/components/tabs/RIPTab.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (208:8)
+
+  206 |             <FiRefreshCw /> Refresh Network
+  207 |           </motion.button>
+> 208 |         </div>
+      |         ^
+  209 |       </div>
+  210 |
+  211 |       {error && (
+    at constructor (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at FlowParserMixin.raise (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4754:18)
+    at FlowParserMixin.jsxParseElement (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4761:17)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4771:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at FlowParserMixin.parseUpdate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at FlowParserMixin.parseExprOps (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3510:39
+    at FlowParserMixin.tryParse (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:6918:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3510:18)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:39
+    at FlowParserMixin.allowInAnd (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12361:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11608:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3603:18)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11262:23)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at FlowParserMixin.parseUpdate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at FlowParserMixin.parseExprOps (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3561:18)
+    at FlowParserMixin.parseFunctionBody (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12028:24)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:2902:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3078:16)
+    at FlowParserMixin.parseFunctionBody (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:2902:12)
+    at FlowParserMixin.parseArrowExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12010:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11620:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3603:18)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11262:23)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at FlowParserMixin.parseUpdate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at FlowParserMixin.parseExprOps (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3561:18)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:39
+    at FlowParserMixin.allowInAnd (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12361:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:17)
+
+ERROR in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 208:8:  Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (208:8)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/tabs/RIPTab.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (208:8) (208:8)
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/tabs/RIPTab.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/src/components/tabs/RIPTab.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (208:8)
+
+  206 |             <FiRefreshCw /> Refresh Network
+  207 |           </motion.button>
+> 208 |         </div>
+      |         ^
+  209 |       </div>
+  210 |
+  211 |       {error && (
+    at constructor (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at FlowParserMixin.raise (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4754:18)
+    at FlowParserMixin.jsxParseElement (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4761:17)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4771:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at FlowParserMixin.parseUpdate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at FlowParserMixin.parseExprOps (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3510:39
+    at FlowParserMixin.tryParse (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:6918:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3510:18)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:39
+    at FlowParserMixin.allowInAnd (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12361:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11608:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3603:18)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11262:23)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at FlowParserMixin.parseUpdate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at FlowParserMixin.parseExprOps (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3561:18)
+    at FlowParserMixin.parseFunctionBody (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12028:24)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:2902:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3078:16)
+    at FlowParserMixin.parseFunctionBody (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:2902:12)
+    at FlowParserMixin.parseArrowExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12010:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11620:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3603:18)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11262:23)
+    at FlowParserMixin.parseExprAtom (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at FlowParserMixin.parseUpdate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at FlowParserMixin.parseExprOps (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:3561:18)
+    at /Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:39
+    at FlowParserMixin.allowInAnd (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:12361:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/ayushratan/Desktop/projects/dcnn/Advanced-Protocol-Analysis-Security-Dashboard/frontend/node_modules/@babel/parser/lib/index.js:10734:17)
+
+ERROR in [eslint] 
+src/components/tabs/RIPTab.js
+  Line 208:8:  Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (208:8)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+src/components/tabs/TCPTab.js
+  Line 3:85:  'FiNavigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+src/components/tabs/TCPTab.js
+  Line 3:85:  'FiNavigation' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+src/components/tabs/SimulationTab.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/components/tabs/TCPTab.js
+  Line 3:85:  'FiNavigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+src/components/tabs/SimulationTab.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/components/tabs/TCPTab.js
+  Line 3:85:  'FiNavigation' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+src/components/tabs/SimulationTab.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/components/tabs/TCPTab.js
+  Line 3:85:  'FiNavigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/NetworkVisualization.js
+  Line 3:31:  'FiDownload' is defined but never used  no-unused-vars
+
+src/components/tabs/RIPTab.js
+  Line 3:77:   'FiGrid' is defined but never used                  no-unused-vars
+  Line 84:9:   'getNodeInfo' is assigned a value but never used    no-unused-vars
+  Line 126:9:  'renderNetwork' is assigned a value but never used  no-unused-vars
+
+src/components/tabs/SimulationTab.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/components/tabs/TCPTab.js
+  Line 3:85:  'FiNavigation' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
